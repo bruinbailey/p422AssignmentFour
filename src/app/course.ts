@@ -4,8 +4,8 @@ export class Course {
     description: string;
     bookInfo: string;
     meetingTime: string;
-    gradingScale: GradeScale;
-    calendar: Calendar;
+    gradingScale: GradeScale[];
+    calendar: Calendar[];
     universityInfo: string;
 }
 export class Calendar {
