@@ -4,7 +4,18 @@
     <b>Course description:</b> {{course.description}}<br />
     <b>Course required book:</b> {{course.bookInfo}}<br />
     <b>Course meeting time:</b> {{course.meetingTime}}<br />
-    <b>Course grading scale</b> {{course.gradingScale.percentageRange}} - 
-      {{course.gradingScale.letterGrade}}
   </div>
+  <table class="gradeScale">
+    <thead>
+      <tr>
+        <th scope="col">Percent Range</th>
+        <th scope="col">Letter Grade</th>
+      </tr>
+    </thead>
+      <tbody *ngFor="let course of courses">
+        <td>{{course.gradeScale.percentageRange}}</td>
+        <td>{{course.gradeScale.letterGrade}}</td>
+      </tbody>
+  </table>
+  
 </div>
