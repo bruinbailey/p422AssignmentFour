@@ -12,10 +12,10 @@
         <th scope="col">Letter Grade</th>
       </tr>
     </thead>
-      <tbody *ngFor="let course of courses">
-        <td>{{course.gradeScale.percentageRange}}</td>
-        <td>{{course.gradeScale.letterGrade}}</td>
-      </tbody>
+      <tr *ngFor="let scale of course.gradingScale">
+        <td>{{scale.percentageRange}}</td>
+        <td>{{scale.letterGrade}}</td>
+      </tr>
   </table>
   
 </div>
