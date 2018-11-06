@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { SyllabusComponent } from './syllabus/syllabus.component';
 import { SyllabusInfoComponent } from './syllabus-info/syllabus-info.component';
 import { CalendarComponent } from './calendar/calendar.component';
+import { UniversityInfoComponent } from './university-info/university-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SyllabusComponent,
     SyllabusInfoComponent,
-    CalendarComponent
+    CalendarComponent,
+    UniversityInfoComponent
   ],
   imports: [
     BrowserModule
