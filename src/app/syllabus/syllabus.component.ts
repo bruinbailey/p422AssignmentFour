@@ -11,6 +11,7 @@ export class SyllabusComponent implements OnInit {
 
   selectedCourse: Course;
   courses = COURSES;
+  model = "";
 
   onSelect(course: Course) {
     this.selectedCourse = course;
