@@ -6,7 +6,6 @@ export class Course {
     meetingTime: string;
     gradingScale: GradeScale[];
     calendar: Calendar[];
-    universityInfo: string;
 }
 export class Calendar {
     date: string;

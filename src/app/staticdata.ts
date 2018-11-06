@@ -15,7 +15,6 @@ export const COURSES: Course[] = [
         calendar: [{date: '10-22-2018', description: 'Angular lecture', notesLink: 'note link goes here'},
             {date: '10-24-2018', description: 'Component lecture', notesLink: 'note link goes here'},
             {date: '10-29-2018', description: 'Module lecture', notesLink: 'note link goes here'}],
-        universityInfo: ''
     },
     {
         title: 'Statistics',
@@ -29,7 +28,6 @@ export const COURSES: Course[] = [
         calendar: [{date: '10-23-2018', description: 'Chapter 7 Section 2', notesLink: 'note link goes here'},
             {date: '10-25-2018', description: 'Chapter 7 section 3', notesLink: 'note link goes here'},
             {date: '10-30-2018', description: 'Chapter 6 & 7 review', notesLink: 'note link goes here'}],
-        universityInfo: ''
     }
 
 ]
