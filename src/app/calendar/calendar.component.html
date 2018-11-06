@@ -5,11 +5,8 @@
       <th scope="col">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr *ngFor="let data of course.calendar">
-      <td>{{data.date}}</td>
-      <td>{{data.description}} - {{data.notesLink}}</td>
+    <tr *ngFor="let day of course.calendar">
+      <td>{{day.date}}</td>
+      <td>{{day.description}} - {{day.notesLink}}</td>
     </tr>
-    
-  </tbody>
 </table>
