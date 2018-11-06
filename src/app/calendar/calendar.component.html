@@ -1,0 +1,12 @@
+<table class="calendar">
+  <thead>
+    <tr>
+      <th scope="col">Date</th>
+      <th scope="col">Description</th>
+    </tr>
+  </thead>
+    <tr *ngFor="let day of course.calendar">
+      <td>{{day.date}}</td>
+      <td>{{day.description}} - {{day.notesLink}}</td>
+    </tr>
+</table>
