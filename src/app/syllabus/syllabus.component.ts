@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Course } from '../course';
 import { COURSES } from '../staticdata';
 
+
 @Component({
   selector: 'app-syllabus',
   templateUrl: './syllabus.component.html',
