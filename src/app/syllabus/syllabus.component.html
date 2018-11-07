@@ -1,11 +1,12 @@
-<ul>
-  <li *ngFor="let course of courses" (click)="onSelect(course)">{{course.title}}</li>
-</ul>
-
+<div class="btn-group btn-group-toggle" ngbRadioGroup name="radioBasic" [(ngModel)]="model">
+  <label ngbButtonLabel class="btn-primary" *ngFor="let course of courses" (click)="onSelect(course)">
+    <input ngbButton type="radio" [value]="course.title"> {{course.title}}
+  </label>
+</div>
 <div *ngIf="selectedCourse">
   <app-syllabus-info [course]="selectedCourse"></app-syllabus-info>
 </div>
-
 <div *ngIf="!selectedCourse">
 	No course selected. Please click a profile.
 </div>
+
